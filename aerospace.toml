@@ -204,7 +204,10 @@ run = 'move-node-to-workspace E'
 
 [[on-window-detected]]
 if.app-id = 'com.mitchellh.ghostty'
-run = 'move-node-to-workspace G'
+run = [
+  'layout floating',
+  'move-node-to-workspace G'
+]
 
 [[on-window-detected]]
 if.app-id = 'com.tinyspeck.slackmacgap'
