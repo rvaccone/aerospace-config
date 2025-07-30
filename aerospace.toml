@@ -195,8 +195,16 @@ shift-down = ['volume set 0', 'mode main']
 
 # Assign apps on particular workspaces
 [[on-window-detected]]
+if.app-id = 'com.electron.asana'
+run = 'move-node-to-workspace A'
+
+[[on-window-detected]]
 if.app-id = 'com.brave.Browser'
 run = 'move-node-to-workspace B'
+
+[[on-window-detected]]
+if.app-id = 'com.mongodb.compass'
+run = 'move-node-to-workspace C'
 
 [[on-window-detected]]
 if.app-id = 'com.github.Electron'
@@ -210,9 +218,16 @@ run = [
 ]
 
 [[on-window-detected]]
+if.app-id = 'com.apple.MobileSMS'
+run = 'move-node-to-workspace M'
+
+[[on-window-detected]]
+if.app-id = 'ch.protonmail.desktop'
+run = 'move-node-to-workspace P'
+
+[[on-window-detected]]
 if.app-id = 'com.tinyspeck.slackmacgap'
 run = 'move-node-to-workspace S'
-
 
 [[on-window-detected]]
 if.app-id = 'com.linear'
@@ -221,3 +236,7 @@ run = 'move-node-to-workspace T'
 [[on-window-detected]]
 if.app-id = 'dev.warp.Warp-Stable'
 run = 'move-node-to-workspace W'
+
+[[on-window-detected]]
+if.app-id = 'com.apple.Music'
+run = 'move-node-to-workspace U'
