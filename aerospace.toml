@@ -195,48 +195,76 @@ shift-down = ['volume set 0', 'mode main']
 
 # Assign apps on particular workspaces
 [[on-window-detected]]
-if.app-id = 'com.electron.asana'
+if.app-id = 'com.electron.asana' # Asana
 run = 'move-node-to-workspace A'
 
 [[on-window-detected]]
-if.app-id = 'com.brave.Browser'
+if.app-id = 'com.brave.Browser' # Brave
 run = 'move-node-to-workspace B'
 
 [[on-window-detected]]
-if.app-id = 'com.mongodb.compass'
+if.app-id = 'com.mongodb.compass' # Compass
 run = 'move-node-to-workspace C'
 
 [[on-window-detected]]
-if.app-id = 'com.github.Electron'
+if.app-id = 'com.todesktop.230313mzl4w4u92' # Cursor
+run = 'move-node-to-workspace C'
+
+[[on-window-detected]]
+if.app-id = 'com.hnc.Discord' # Discord
+run = 'move-node-to-workspace D'
+
+[[on-window-detected]]
+if.app-id = 'com.github.Electron' # Electron
 run = 'move-node-to-workspace E'
 
 [[on-window-detected]]
-if.app-id = 'com.mitchellh.ghostty'
+if.app-id = 'com.mitchellh.ghostty' # Ghostty
 run = [
   'layout floating',
   'move-node-to-workspace G'
 ]
 
 [[on-window-detected]]
-if.app-id = 'com.apple.MobileSMS'
+if.app-id = 'NULL-APP-BUNDLE-ID' # Android Emulator
+run = 'move-node-to-workspace I'
+
+[[on-window-detected]] 
+if.app-id = 'com.apple.iphonesimulator' # iOS Simulator
+run = 'move-node-to-workspace I'
+
+[[on-window-detected]]
+if.app-id = 'com.apple.MobileSMS' # Messages
 run = 'move-node-to-workspace M'
 
 [[on-window-detected]]
-if.app-id = 'ch.protonmail.desktop'
+if.app-id = 'notion.id' # Notion
+run = 'move-node-to-workspace N'
+
+[[on-window-detected]]
+if.app-id = 'ch.protonmail.desktop' # Proton Mail
 run = 'move-node-to-workspace P'
 
 [[on-window-detected]]
-if.app-id = 'com.tinyspeck.slackmacgap'
+if.app-id = 'me.proton.pass.electron' # Proton Pass
+run = 'move-node-to-workspace P'
+
+[[on-window-detected]]
+if.app-id = 'com.tinyspeck.slackmacgap' # Slack
 run = 'move-node-to-workspace S'
 
 [[on-window-detected]]
-if.app-id = 'com.linear'
+if.app-id = 'com.linear' # Linear
 run = 'move-node-to-workspace T'
 
 [[on-window-detected]]
-if.app-id = 'dev.warp.Warp-Stable'
+if.app-id = 'dev.warp.Warp-Stable' # Warp
 run = 'move-node-to-workspace W'
 
 [[on-window-detected]]
-if.app-id = 'com.apple.Music'
+if.app-id = 'com.apple.Music' # Apple Music
 run = 'move-node-to-workspace U'
+
+[[on-window-detected]]
+if.app-id = 'us.zoom.xos' # Zoom
+run = 'move-node-to-workspace Z'
