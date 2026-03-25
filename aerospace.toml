@@ -258,6 +258,10 @@ if.app-id = 'com.linear' # Linear
 run = 'move-node-to-workspace T'
 
 [[on-window-detected]]
+if.app-id = 'ru.keepcoder.Telegram' # Telegram
+run = 'move-node-to-workspace T'
+
+[[on-window-detected]]
 if.app-id = 'org.mozilla.thunderbird' # Thunderbird
 run = 'move-node-to-workspace T'
 
