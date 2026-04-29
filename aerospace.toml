@@ -215,6 +215,10 @@ if.app-id = 'com.github.Electron' # Electron
 run = 'move-node-to-workspace E'
 
 [[on-window-detected]]
+if.app-id = 'org.mozilla.thunderbird' # Thunderbird
+run = 'move-node-to-workspace E'
+
+[[on-window-detected]]
 if.app-id = 'com.mitchellh.ghostty' # Ghostty
 run = [
   'layout floating',
@@ -250,6 +254,10 @@ if.app-id = 'me.proton.pass.electron' # Proton Pass
 run = 'move-node-to-workspace P'
 
 [[on-window-detected]]
+if.app-id = 'com.anthropic.claudefordesktop' # Claude
+run = 'move-node-to-workspace Q'
+
+[[on-window-detected]]
 if.app-id = 'com.tinyspeck.slackmacgap' # Slack
 run = 'move-node-to-workspace S'
 
@@ -259,10 +267,6 @@ run = 'move-node-to-workspace T'
 
 [[on-window-detected]]
 if.app-id = 'ru.keepcoder.Telegram' # Telegram
-run = 'move-node-to-workspace T'
-
-[[on-window-detected]]
-if.app-id = 'org.mozilla.thunderbird' # Thunderbird
 run = 'move-node-to-workspace T'
 
 [[on-window-detected]]
