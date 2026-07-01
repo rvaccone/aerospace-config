@@ -194,7 +194,7 @@ d = ['exec-and-forget shortcuts run "Toggle DnD"', 'mode main'] # toggle Do Not 
 ## B: Browser (accordion layout)
 [[on-window-detected]]
 if.app-id = 'com.brave.Browser' # Brave
-run = ['move-node-to-workspace B', 'layout accordion horizontal']
+run = ['move-node-to-workspace B', 'layout accordion horizontal vertical']
 
 ## C
 [[on-window-detected]]
@@ -209,11 +209,11 @@ run = 'move-node-to-workspace D'
 ## E: Email (accordion layout)
 [[on-window-detected]]
 if.app-id = 'ch.protonmail.desktop' # Proton Mail (personal)
-run = ['move-node-to-workspace E', 'layout accordion horizontal']
+run = ['move-node-to-workspace E', 'layout accordion horizontal vertical']
 
 [[on-window-detected]]
 if.app-id = 'org.mozilla.thunderbird' # Thunderbird (work)
-run = ['move-node-to-workspace E', 'layout accordion horizontal']
+run = ['move-node-to-workspace E', 'layout accordion horizontal vertical']
 
 ## G
 [[on-window-detected]]
@@ -236,15 +236,15 @@ run = 'move-node-to-workspace M'
 ## P: Planning (accordion layout)
 [[on-window-detected]]
 if.app-id = 'com.electron.asana' # Asana
-run = ['move-node-to-workspace P', 'layout accordion horizontal']
+run = ['move-node-to-workspace P', 'layout accordion horizontal vertical']
 
 [[on-window-detected]]
 if.app-id = 'com.linear' # Linear
-run = ['move-node-to-workspace P', 'layout accordion horizontal']
+run = ['move-node-to-workspace P', 'layout accordion horizontal vertical']
 
 [[on-window-detected]]
 if.app-id = 'notion.id' # Notion
-run = ['move-node-to-workspace P', 'layout accordion horizontal']
+run = ['move-node-to-workspace P', 'layout accordion horizontal vertical']
 
 ## S
 [[on-window-detected]]
@@ -259,8 +259,8 @@ run = 'move-node-to-workspace T'
 ## V: Video (accordion layout)
 [[on-window-detected]]
 if.app-id = 'ch.protonmeet.desktop' # Proton Meet
-run = ['move-node-to-workspace V', 'layout accordion horizontal']
+run = ['move-node-to-workspace V', 'layout accordion horizontal vertical']
 
 [[on-window-detected]]
 if.app-id = 'us.zoom.xos' # Zoom
-run = ['move-node-to-workspace V', 'layout accordion horizontal']
+run = ['move-node-to-workspace V', 'layout accordion horizontal vertical']
