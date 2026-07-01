@@ -199,19 +199,6 @@ run = 'move-node-to-workspace B'
 if.app-id = 'com.anthropic.claudefordesktop' # Claude
 run = 'move-node-to-workspace C'
 
-## G
-[[on-window-detected]]
-if.app-id = 'com.mitchellh.ghostty' # Ghostty
-run = [
-  'layout floating',
-  'move-node-to-workspace G'
-]
-
-## I: iOS
-[[on-window-detected]]
-if.app-id = 'com.apple.iphonesimulator' # Simulator
-run = 'move-node-to-workspace I'
-
 ## D — Database
 [[on-window-detected]]
 if.app-id = 'com.mongodb.compass' # MongoDB Compass
@@ -225,6 +212,19 @@ run = 'move-node-to-workspace E'
 [[on-window-detected]]
 if.app-id = 'org.mozilla.thunderbird' # Thunderbird (work)
 run = 'move-node-to-workspace E'
+
+## G
+[[on-window-detected]]
+if.app-id = 'com.mitchellh.ghostty' # Ghostty
+run = [
+  'layout floating',
+  'move-node-to-workspace G'
+]
+
+## I: iOS
+[[on-window-detected]]
+if.app-id = 'com.apple.iphonesimulator' # Simulator
+run = 'move-node-to-workspace I'
 
 ## M
 [[on-window-detected]]
