@@ -212,6 +212,10 @@ if.app-id = 'ch.protonmail.desktop' # Proton Mail (personal)
 run = ['move-node-to-workspace E', 'layout h_accordion']
 
 [[on-window-detected]]
+if.app-id = 'com.microsoft.Outlook' # Outlook (work)
+run = ['move-node-to-workspace E', 'layout h_accordion']
+
+[[on-window-detected]]
 if.app-id = 'org.mozilla.thunderbird' # Thunderbird (work)
 run = ['move-node-to-workspace E', 'layout h_accordion']
 
