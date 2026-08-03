@@ -260,6 +260,11 @@ run = 'move-node-to-workspace S'
 if.app-id = 'ru.keepcoder.Telegram' # Telegram
 run = 'move-node-to-workspace T'
 
+## U
+[[on-window-detected]]
+if.app-id = 'com.apple.Music' # Apple Music
+run = 'move-node-to-workspace U'
+
 ## V: Video (accordion layout)
 [[on-window-detected]]
 if.app-id = 'ch.protonmeet.desktop' # Proton Meet
